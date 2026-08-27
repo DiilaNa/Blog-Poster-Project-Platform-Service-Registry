@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class DiscoveryServerApplication {
     public static void main(String[] args) {
-        System.setProperty("spring.classformat.ignore", "true");
         SpringApplication.run(DiscoveryServerApplication.class, args);
     }
 }
